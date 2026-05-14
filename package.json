@@ -1,0 +1,25 @@
+/**
+ *  In main file
+ *  import { sum } from './script1.js';
+ *  console.log(sum(1, 2));
+ */
+{
+  "name": "contacts-api",
+  "version": "1.0.0",
+  "description": "Simple REST API for managing contacts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "contacts"
+  ],
+  "author": "Divyanshu Saini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
